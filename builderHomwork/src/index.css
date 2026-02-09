@@ -1,0 +1,111 @@
+.rating{
+  width: 300px;
+  height: 270px;
+  box-shadow: 2px 2px 20px 7px rgba(128, 128, 128, 0.184);
+  padding: 20px;
+}
+.rate{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.rate img{
+  width: 25px;
+  height: 25px;
+}
+.rate p{
+  font-size: 18px;
+  font-weight: 800;
+  
+}
+.blue{
+  color: rgba(33, 123, 244, 1);
+  font-weight: bold;
+}
+.pep img{
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+}
+.pep{
+  display: flex;
+  gap: 10px;
+}
+.info{
+  color: gray;
+  width: 274px;
+
+}
+
+.grid{
+  width: 400px;
+  height: 100px;
+  border-radius: 14px;
+  box-shadow:  2px 2px 20px 7px rgba(128, 128, 128, 0.184);
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  padding: 20px;
+}
+.grid button{
+  background-color: rgba(33, 123, 244, 1);
+  width: 60px;
+  height: 60px;
+  border-radius: 24px;
+  border: none;
+}
+.grid button img{
+  width: 34px;
+  height: 27.14px;
+}
+.person1{
+  width: 270px;
+  height: 316px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 20px 7px rgba(128, 128, 128, 0.184);
+  align-items: center;
+  border-radius: 20px;
+}
+.person1 img{
+  width: 166px;
+  height: 166px;
+  border: 4px dashed rgba(255, 175, 46, 1);
+  border-radius: 100px;
+}
+
+.n {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: center;
+}
+
+.n img {
+  width: 250px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.nline {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nline span {
+  width: 40px;
+  height: 4px;
+  background: #ffaf2e;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.nline h2 {
+  font-size: 20px;
+  color: rgba(47, 44, 74, 1);
+}
